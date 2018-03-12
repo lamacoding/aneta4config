@@ -5,6 +5,7 @@ The only thing is: You cannot change ANYTHING! Even the EEPROM is disabled.
 As ANET does not provide a firmware to their "open-source" delta-printer, I decided to create my own.
 This is compatible with the standard ANET A4 printer, <b>without any modifications</b>.
 It's currently based on <b>Marlin 1.1.8</b> (http://marlinfw.org).
+You'll need the ANET board library in your Arduino IDE: https://github.com/SkyNet3D/anet-board
 
 <b>You now can calibrate the concave or convex movement that this printer usually has!</b>
   - First of all you should check the rods if they all have the same length (usually they are really precise). That's the most important thing befor you continue!
