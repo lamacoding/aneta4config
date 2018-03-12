@@ -8,7 +8,6 @@ It's currently based on <b>Marlin 1.1.8</b> (http://marlinfw.org).
 
 Features added:
 - EEPROM enabled
-- Mesh bed leveling enabled (including mesh validating via G26)
 - Delta calibration enabled
 - changed the button-assignment (middle button is now both MENU- and ENTER-button)
 - calibrated steps/mm (original the extruder was off, I needed 110-120% for extrusion)
