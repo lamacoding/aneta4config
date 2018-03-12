@@ -502,7 +502,7 @@
     // Set the radius for the calibration probe points - max 0.9 * DELTA_PRINTABLE_RADIUS for non-eccentric probes
     #define DELTA_CALIBRATION_RADIUS 90 // mm
     // Set the steprate for papertest probing
-    #define PROBE_MANUALLY_STEP 0.025
+    #define PROBE_MANUALLY_STEP 0.1
   #endif
 
   // Print surface diameter/2 minus unreachable space (avoid collisions with vertical towers).
