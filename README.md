@@ -6,6 +6,12 @@ As ANET does not provide a firmware to their "open-source" delta-printer, I deci
 This is compatible with the standard ANET A4 printer, <b>without any modifications</b>.
 It's currently based on <b>Marlin 1.1.8</b> (http://marlinfw.org).
 
+<b>You now can calibrate the concave or convex movement that this printer usually has!</b>
+  - First of all you should check the rods if they all have the same length (usually they are really precise). That's the most important thing befor you continue!
+  - If the rods are correct, find the <i>DELTA_RADIUS</i> in the Configuration.h, which is set to 111mm (that works for me)
+  - If the nozzle is too high in the middle of the bed and scratches on the edge: raise the value in 0.5mm steps</p>
+  - If the nozzle is too low in the middle of the bed and lifts on the edge: lower the value in 0.5mm steps</p>
+
 Features added:
 - EEPROM enabled
 - Delta calibration enabled
