@@ -17,3 +17,5 @@ Features added:
 
 As the ANET A4 uses mostly the same hardware as the A8 (pulleys, thermistors,...) I was able to get quick results.
 Just be <b>careful on first start!</b> Accelerations and feedrates are different from the standard configuration. Just adapt it if you want/need to.
+
+I also included a CAD file of the top frame. ANET delivers a different one than the one in the assembly video. It seems that the "new" one works as well but if you have the possibility to laser-cut acrylic parts, you can use this file. Mine just fits perfectly.
