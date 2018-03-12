@@ -6,5 +6,11 @@ As ANET does not provide a firmware to their "open-source" delta-printer, I deci
 This is compatible with the standard ANET A4 printer, <b>without any modifications</b>.
 It's currently based on <b>Marlin 1.1.8</b> (http://marlinfw.org).
 
+Features added:
+- EEPROM enabled
+- Mesh bed leveling enabled (including mesh validating via G26)
+- changed the button-assignment (middle button is now both MENU- and ENTER-button)
+- calibrated steps/mm (original the extruder was off, I needed 110-120% for extrusion)
+
 As the ANET A4 uses mostly the same hardware as the A8 (pulleys, thermistors,...) I was able to get quick results.
 Just be <b>careful on first start!</b> Accelerations and feedrates are different from the standard configuration. Just adapt it if you want/need to.
