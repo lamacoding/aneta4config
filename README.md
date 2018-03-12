@@ -12,7 +12,7 @@ It's currently based on <b>Marlin 1.1.8</b> (http://marlinfw.org).
   - If the nozzle is too high in the middle of the bed and scratches on the edge: raise the value in 0.5mm steps</p>
   - If the nozzle is too low in the middle of the bed and lifts on the edge: lower the value in 0.5mm steps</p>
 
-Features added:
+<b>Features added:</b>
 - EEPROM enabled
 - Delta calibration enabled
 - changed the button-assignment (middle button is now both MENU- and ENTER-button, the right one now just brings you back to the main screen)
