@@ -9,10 +9,10 @@ It's currently based on <b>Marlin 1.1.8</b> (http://marlinfw.org).
 Features added:
 - EEPROM enabled
 - Delta calibration enabled
-- changed the button-assignment (middle button is now both MENU- and ENTER-button)
+- changed the button-assignment (middle button is now both MENU- and ENTER-button, the right one now just brings you back to the main screen)
 - calibrated steps/mm (originally the extruder was off, I needed 110-120% for extrusion)
 - PID tuning added to LCD menu
-- no fallback to main screen on LCD menu
+- no fast fallback to main screen on LCD menu
 - Safe homing: all 3 axes will come down a bit after homing to enable safe movements in all directions
 
 As the ANET A4 uses mostly the same hardware as the A8 (pulleys, thermistors,...) I was able to get quick results.
