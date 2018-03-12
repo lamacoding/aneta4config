@@ -10,7 +10,7 @@ Features added:
 - EEPROM enabled
 - Delta calibration enabled
 - changed the button-assignment (middle button is now both MENU- and ENTER-button)
-- calibrated steps/mm (original the extruder was off, I needed 110-120% for extrusion)
+- calibrated steps/mm (originally the extruder was off, I needed 110-120% for extrusion)
 - PID tuning added to LCD menu
 - no fallback to main screen on LCD menu
 - Safe homing: all 3 axes will come down a bit after homing to enable safe movements in all directions
