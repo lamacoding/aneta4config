@@ -1,7 +1,7 @@
 # aneta4config
 
 The ANET A4 could be a very nice printer. It has an OK hardware and prints really nicely.
-The only thing is: You cannot change ANYTHING!
+The only thing is: You cannot change ANYTHING! Even the EEPROM is disabled.
 As ANET does not provide a firmware to their "open-source" delta-printer, I decided to create my own.
 This is compatible with the standard ANET A4 printer, <b>without any modifications</b>.
 It's currently based on <b>Marlin 1.1.8</b> (http://marlinfw.org).
