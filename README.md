@@ -21,6 +21,7 @@ You'll need the ANET board library in your Arduino IDE: https://github.com/SkyNe
 - PID tuning added to LCD menu
 - no fast fallback to main screen on LCD menu
 - Safe homing: all 3 axes will come down a bit after homing to enable safe movements in all directions
+- Reduced DELTA_SEGMENTS_PER_SECOND to 150 to improve performance, now the display should always be working while printing
 
 As the ANET A4 uses mostly the same hardware as the A8 (pulleys, thermistors,...) I was able to get quick results.
 Just be <b>careful on first start!</b> Accelerations and feedrates are different from the standard configuration. Just adapt it if you want/need to.
