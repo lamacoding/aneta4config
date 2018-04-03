@@ -20,7 +20,7 @@ You'll need the ANET board library in your Arduino IDE: https://github.com/SkyNe
 Usually the Anet A4 has a proportional error, so the error depends on the part size. E.g. I had a 40mm part which was 41.2mm and a 20mm part that was about 20.6mm. So there was a error of 3% (which is a lot when you need technical parts).
 This can be solved easily!
 You can do it in 2 ways:
-  - Change the value for arm-length (diag rod) in the firmware <b>or</b>
+  - Change the value for arm-length (DELTA_DIAGONAL_ROD) in the firmware <b>or</b>
   - Change the value for arm-length in the EEPROM (Menu: Prepare - Delta calibration - Diag rod)
   
   - If your parts are too big, raise the value
