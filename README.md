@@ -20,7 +20,7 @@ You'll need the ANET board library in your Arduino IDE: https://github.com/SkyNe
 - calibrated steps/mm (originally the extruder was off, I needed 110-120% for extrusion)
 - PID tuning added to LCD menu
 - no fast fallback to main screen on LCD menu
-- Safe homing: all 3 axes will come down a bit after homing to enable safe movements in all directions
+- Safe homing: all 3 axes will come down a bit after homing to enable safe movements in all directions (do <b>NOT</b> home your printer after a print with G28 unless you know what you're doing. The nozzle is likely to crash into higher prints! Just use something like 'G0 X0 Y0 Z210' to be safe! Or disable safe homing if you want.)
 - Reduced DELTA_SEGMENTS_PER_SECOND to 150 to improve performance, now the display should always be working while printing
 
 As the ANET A4 uses mostly the same hardware as the A8 (pulleys, thermistors,...) I was able to get quick results.
