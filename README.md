@@ -1,5 +1,7 @@
 # aneta4config
 
+<b>New update (v1.2) with better dimensional accuracy! Find the guide for calibrating the dimensions in this readme.</b>
+
 The ANET A4 could be a very nice printer. It has an OK hardware and prints really nicely.
 The only thing is: You cannot change ANYTHING! Even the EEPROM is disabled.
 As ANET does not provide a firmware to their "open-source" delta-printer, I decided to create my own.
@@ -12,6 +14,20 @@ You'll need the ANET board library in your Arduino IDE: https://github.com/SkyNe
   - If the rods are correct, find the <i>DELTA_RADIUS</i> in the Configuration.h, which is set to 111mm (that works for me)
   - If the nozzle is too high in the middle of the bed and scratches on the edge: raise the value in 0.5mm steps</p>
   - If the nozzle is too low in the middle of the bed and lifts on the edge: lower the value in 0.5mm steps</p>
+  
+<b>Calibrate dimensional accuracy:</b>
+
+Usually the Anet A4 has a proportional error, so the error depends on the part size. E.g. I had a 40mm part which was 41.2mm and a 20mm part that was about 20.6mm. So there was a error of 3% (which is a lot when you need technical parts).
+This can be solved easily!
+You can do it in 2 ways:
+  - Change the value for arm-length (diag rod) in the firmware <b>or</b>
+  - Change the value for arm-length in the EEPROM (Menu: Prepare - Delta calibration - Diag rod)
+  
+  - If your parts are too big, raise the value
+  - If your parts are too small, lower the value
+  
+  Calculating the values is quite easy. If you are off 3%, then change the value for the diagonal rods by 3%.
+  I changed the values from 215mm to 220mm in v1.2, this should fit most A4 printers.
 
 <b>Features added:</b>
 - EEPROM enabled
