@@ -1,5 +1,8 @@
 # aneta4config
 
+<n>This Software will not be updated anymore. Issues will not be solved!
+I do not own the ANET A4 anymore!</b>
+
 <b>New update (v1.2) with better dimensional accuracy! Find the guide for calibrating the dimensions in this readme.</b>
 
 The ANET A4 could be a very nice printer. It has an OK hardware and prints really nicely.
